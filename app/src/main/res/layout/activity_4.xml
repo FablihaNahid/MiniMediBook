@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helpinghand"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/medicine"
+        android:layout_x="30px"
+        android:layout_y="360px"
+
+
+        />
+
+    <Button
+        android:id="@+id/medicinebuttonid"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="266dp"
+        android:layout_y="236dp"
+        android:text="MEDICINE"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="201dp"
+        android:layout_x="15dp"
+        android:layout_y="412dp"
+        android:src="@drawable/consultdoctor"
+
+        />
+
+    <Button
+        android:id="@+id/c1"
+        android:layout_width="111dp"
+        android:layout_height="59dp"
+        android:layout_x="266dp"
+        android:layout_y="510dp"
+        android:text="Consult"
+        android:textStyle="bold"/>
+
+
+</AbsoluteLayout>

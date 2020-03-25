@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/medilogin1"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texview1"
+        android:textSize="20dp"
+        android:text="MEDIBOOK FOR CORONA"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/edittext1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext1"
+        android:layout_marginTop="35dp"
+        android:text="LOGIN"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

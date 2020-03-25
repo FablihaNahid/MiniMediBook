@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TableRow
+        android:id="@+id/titlerowID"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:text="SYMPTOPMS"
+
+            />
+    ></TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/headerID"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Symptoms"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+        android:height="16sp"
+        android:text="Percentage of occurance"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+            />
+
+
+
+    ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID2"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Fever"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="86%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID3"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Dry Cough"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="68%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID4"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Fatigue"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="38%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID5"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Producing spuctum"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="33%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID6"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Shortness of breath"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="19%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID7"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Sore throat"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="14%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID8"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Headache"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="14%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID9"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Stuffy nose"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="5%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/headerID10"
+        >
+
+
+        <TextView
+            android:height="16sp"
+            android:text="Diarrhoea"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            />
+
+        <TextView
+            android:height="16sp"
+            android:text="4%"
+            android:textStyle="bold"
+            android:textColor="@color/coloorBlack"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+
+
+        ></TableRow>
+
+    <TableRow
+        android:id="@+id/lastone">
+
+        <Button
+            android:id="@+id/buttonid"
+            android:layout_column="1"
+            android:text="Prevention"
+            />
+
+    ></TableRow>
+
+
+
+</TableLayout>
